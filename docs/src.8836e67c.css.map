@@ -1,1 +1,0 @@
-{"version":3,"sources":["App/App/App.less","index.less"],"names":[],"mappings":"AAAA,KACE,WAAA,CACA,UAAA,CACA,aCHF,EACE,SAAA,CACA,QAAA,CACA","file":"src.8836e67c.css","sourceRoot":"../src","sourcesContent":[".app {\n  height: 100%;\n  width: 100%;\n  padding: 16px;\n}","* {\n  padding: 0;\n  margin: 0;\n  font-family: 'Roboto', sans-serif;\n}"]}
