@@ -1,0 +1,128 @@
+.josesaranda-about {
+  position: relative;
+  height: 100%;
+  padding: 8px;
+  overflow: auto;
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+  }
+
+  h1, h2 {
+    color: #0F4C6E;
+  }
+
+  h3, h4, h5, h6 {
+    color: #555555;
+  }
+
+  .divider {
+    height: 1px;
+    width: 80%;
+    background: #125F89;
+    margin: auto;
+  }
+
+  #cv {
+    height: 29.7cm;
+    width: 21.0cm;
+
+    min-height: 29.7cm;
+    min-width: 21.0cm;
+
+    max-height: 29.7cm;
+    max-width: 21.0cm;
+
+    margin: auto;
+    padding: 16px;
+    background: white;
+
+    @media (max-width: 768px){
+      max-width: 100%;
+      max-height: 100%;
+
+      min-width: auto;
+      min-height: auto;
+
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  #cv .introduction {
+    display: flex;
+    max-height: 200px;
+
+    @media (max-width: 768px){
+      display: inline-block;
+      max-height: none;
+      text-align: center;
+    }
+  }
+
+  #cv .introduction img {
+    margin-right: 10px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  #cv .introduction .description {
+    margin-left: 10px;
+    text-align: left;
+  }
+
+  #cv .technologies, #cv .experience {
+    margin: 10px 0;
+  }
+
+  .technologies a {
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    margin: 4px;
+    background: #555555;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .technologies a:hover {
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+  }
+
+  .technologies a.front {
+    background: #125F89;
+  }
+
+  .technologies a.back {
+    background: #555555;
+  }
+
+  .technologies a.tools {
+    background: #891261;
+  }
+
+  .technologies a.test {
+    background: #12896f;
+  }
+
+  .technologies a.server {
+    background: #591289;
+  }
+
+  .position {
+    margin: 10px 0;
+  }
+
+  .position h3, .position h4 {
+    margin: 0;
+  }
+
+  .position .desc {
+    color: #125F89;
+  }
+}
