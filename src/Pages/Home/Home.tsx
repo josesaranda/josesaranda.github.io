@@ -13,7 +13,7 @@ export class Home extends Component {
   render(){
     return (
       <div className="josesaranda-home">
-        Hello world this projects was built with parcel, react and typescript and hosted in github pages.
+        Hello world! This project was built with parcel, react and typescript and hosted by github pages.
         Hope you like it. Click on about to know more about me.
       </div>
     )
